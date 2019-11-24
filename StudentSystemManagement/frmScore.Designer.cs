@@ -255,17 +255,17 @@
             // txtsub
             // 
             this.txtsub.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsub.Location = new System.Drawing.Point(446, 17);
+            this.txtsub.Location = new System.Drawing.Point(498, 17);
             this.txtsub.Multiline = true;
             this.txtsub.Name = "txtsub";
-            this.txtsub.Size = new System.Drawing.Size(192, 26);
+            this.txtsub.Size = new System.Drawing.Size(140, 26);
             this.txtsub.TabIndex = 81;
             // 
             // lblSubject
             // 
             this.lblSubject.AutoSize = true;
             this.lblSubject.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubject.Location = new System.Drawing.Point(337, 20);
+            this.lblSubject.Location = new System.Drawing.Point(341, 19);
             this.lblSubject.Name = "lblSubject";
             this.lblSubject.Size = new System.Drawing.Size(55, 23);
             this.lblSubject.TabIndex = 82;
@@ -273,11 +273,11 @@
             // 
             // btnnext
             // 
-            this.btnnext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnnext.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnnext.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnext.Location = new System.Drawing.Point(3, 5);
             this.btnnext.Name = "btnnext";
-            this.btnnext.Size = new System.Drawing.Size(55, 35);
+            this.btnnext.Size = new System.Drawing.Size(103, 35);
             this.btnnext.TabIndex = 83;
             this.btnnext.Text = "បន្ទាប់";
             this.btnnext.UseVisualStyleBackColor = true;
@@ -285,11 +285,11 @@
             // 
             // btnget
             // 
-            this.btnget.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnget.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnget.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnget.Location = new System.Drawing.Point(122, 5);
+            this.btnget.Location = new System.Drawing.Point(217, 5);
             this.btnget.Name = "btnget";
-            this.btnget.Size = new System.Drawing.Size(55, 35);
+            this.btnget.Size = new System.Drawing.Size(86, 35);
             this.btnget.TabIndex = 84;
             this.btnget.Text = "ទាញ";
             this.btnget.UseVisualStyleBackColor = true;
@@ -297,11 +297,11 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnRefresh.Font = new System.Drawing.Font("Book Antiqua", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Location = new System.Drawing.Point(183, 4);
+            this.btnRefresh.Location = new System.Drawing.Point(582, 129);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(59, 35);
+            this.btnRefresh.Size = new System.Drawing.Size(69, 25);
             this.btnRefresh.TabIndex = 85;
             this.btnRefresh.Text = "Refesh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -319,7 +319,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.BackColor = System.Drawing.Color.Blue;
             this.panel1.Controls.Add(this.label1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.Location = new System.Drawing.Point(2, -1);
@@ -329,7 +329,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
+            this.panel2.BackColor = System.Drawing.Color.Blue;
             this.panel2.Controls.Add(this.lblbuttomTitle);
             this.panel2.Location = new System.Drawing.Point(2, 701);
             this.panel2.Name = "panel2";
@@ -351,6 +351,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.lblTotalscore);
             this.panel3.Controls.Add(this.txtTotalScore);
+            this.panel3.Controls.Add(this.btnRefresh);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.lblYear);
             this.panel3.Controls.Add(this.lblLastNames);
@@ -400,20 +401,19 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.btnget);
             this.panel4.Controls.Add(this.btnEnter);
-            this.panel4.Controls.Add(this.btnRefresh);
             this.panel4.Controls.Add(this.btnnext);
-            this.panel4.Location = new System.Drawing.Point(391, 58);
+            this.panel4.Location = new System.Drawing.Point(341, 60);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(247, 47);
+            this.panel4.Size = new System.Drawing.Size(310, 47);
             this.panel4.TabIndex = 88;
             // 
             // btnEnter
             // 
-            this.btnEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnter.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnEnter.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnter.Location = new System.Drawing.Point(61, 5);
+            this.btnEnter.Location = new System.Drawing.Point(112, 5);
             this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(55, 35);
+            this.btnEnter.Size = new System.Drawing.Size(98, 35);
             this.btnEnter.TabIndex = 86;
             this.btnEnter.Text = "បញ្ជូល";
             this.btnEnter.UseVisualStyleBackColor = true;
@@ -421,7 +421,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnUpdate.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(763, 538);
             this.btnUpdate.Name = "btnUpdate";
@@ -433,7 +433,7 @@
             // 
             // btnChooseSub
             // 
-            this.btnChooseSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChooseSub.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnChooseSub.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChooseSub.Location = new System.Drawing.Point(682, 538);
             this.btnChooseSub.Name = "btnChooseSub";
@@ -447,7 +447,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.ControlBox = false;
             this.Controls.Add(this.btnChooseSub);
@@ -457,7 +457,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dtaScore);
             this.Controls.Add(this.dtacountsub);
-            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmScore";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -68,6 +68,7 @@
             // 
             // cboYear
             // 
+            this.cboYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboYear.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboYear.FormattingEnabled = true;
             this.cboYear.Items.AddRange(new object[] {
@@ -82,6 +83,7 @@
             // 
             // cboSemester
             // 
+            this.cboSemester.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboSemester.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboSemester.FormattingEnabled = true;
             this.cboSemester.Items.AddRange(new object[] {
@@ -170,7 +172,7 @@
             this.dtaSubject.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtaSubject.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Subjects});
-            this.dtaSubject.Location = new System.Drawing.Point(2, 3);
+            this.dtaSubject.Location = new System.Drawing.Point(0, 3);
             this.dtaSubject.Name = "dtaSubject";
             this.dtaSubject.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtaSubject.Size = new System.Drawing.Size(421, 133);
@@ -199,7 +201,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCancel.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Location = new System.Drawing.Point(244, 2);
             this.btnCancel.Name = "btnCancel";
@@ -211,9 +213,9 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnInsert.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(3, 2);
+            this.btnInsert.Location = new System.Drawing.Point(4, 2);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(79, 32);
             this.btnInsert.TabIndex = 3;
@@ -223,9 +225,9 @@
             // 
             // btnShow
             // 
-            this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnShow.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShow.Location = new System.Drawing.Point(163, 2);
+            this.btnShow.Location = new System.Drawing.Point(164, 2);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(79, 32);
             this.btnShow.TabIndex = 2;
@@ -235,9 +237,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnDelete.Font = new System.Drawing.Font("Bokor", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(83, 2);
+            this.btnDelete.Location = new System.Drawing.Point(84, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(79, 32);
             this.btnDelete.TabIndex = 1;
@@ -247,9 +249,9 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Red;
+            this.panel3.BackColor = System.Drawing.Color.Blue;
             this.panel3.Controls.Add(this.lblTitle);
-            this.panel3.ForeColor = System.Drawing.Color.White;
+            this.panel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel3.Location = new System.Drawing.Point(-1, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(524, 53);
@@ -258,8 +260,9 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Red;
+            this.panel4.BackColor = System.Drawing.Color.Blue;
             this.panel4.Controls.Add(this.lblbuttomTitle);
+            this.panel4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel4.Location = new System.Drawing.Point(0, 349);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(524, 50);
@@ -279,14 +282,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(500, 400);
             this.ControlBox = false;
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(500, 400);
             this.MinimumSize = new System.Drawing.Size(500, 400);

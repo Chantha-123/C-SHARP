@@ -93,6 +93,7 @@
             // 
             // cboyearPass
             // 
+            this.cboyearPass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cboyearPass, "cboyearPass");
             this.cboyearPass.FormattingEnabled = true;
             this.cboyearPass.Items.AddRange(new object[] {
@@ -122,7 +123,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.BackColor = System.Drawing.Color.Blue;
             this.panel1.Controls.Add(this.lblbuttomTitle);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
@@ -135,7 +136,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
+            this.panel2.BackColor = System.Drawing.Color.Blue;
             this.panel2.Controls.Add(this.llblTitle);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
@@ -160,7 +161,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = global::StudentSystemManagement.Properties.Resources.photo_2019_10_26_09_10_421;
             this.Controls.Add(this.lblTitleNote);
             this.Controls.Add(this.lblNote);
@@ -172,7 +173,7 @@
             this.Controls.Add(this.cboGradePass);
             this.Controls.Add(this.lblGrade);
             this.Controls.Add(this.dtaStudentsList);
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmGraduate";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
